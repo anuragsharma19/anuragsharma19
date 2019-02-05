@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:ConfigRequest
+    xmlns:ns2="urn:cisco:icw:config:service"
+    xmlns="urn:cisco:icw:config:common"
+    xmlns:ns3="urn:cisco:icw:config:client">
+    <requestId>12345</requestId>
+    <consumerName>ConfigUI</consumerName>
+    <entityId>18044</entityId>
+    <callbackUrl>../../../testerui.html</callbackUrl>
+    <ns2:uiAction>PRODUCTCFG-UI</ns2:uiAction>
+    <ns2:operation>VALIDATE</ns2:operation>
+    <ns2:validateOption>ALL</ns2:validateOption>
+    <ns2:repriceconfigs>false</ns2:repriceconfigs>
+    <ns2:header>
+        <ns2:partnerInfo>
+            <userId>mariar</userId>
+            <accessLevel>3</accessLevel>
+            <channelType>1T</channelType>
+            <partnerERPNumber>20798</partnerERPNumber>
+            <billingAddress id="108173">
+                <city>OAKVILLE</city>
+                <zipcode>L6M 2W1</zipcode>
+                <country>CA</country>
+            </billingAddress>
+        </ns2:partnerInfo>
+        <ns2:priceList id="1109">
+            <priceListName>Global Price List - US</priceListName>
+            <currencyCode>USD</currencyCode>
+        </ns2:priceList>
+        <ns2:intendedUse>Resale</ns2:intendedUse>
+        <ns2:installSite>
+            <country>US</country>
+        </ns2:installSite>
+        <ns2:TAAEnabled>Y</ns2:TAAEnabled>
+        <ns2:serviceToCountry>US</ns2:serviceToCountry>
+    </ns2:header>
+    <ns2:xaasMajorLine subscriptionId="SubC342" configId="0">
+        <ns2:lineId>0</ns2:lineId>
+        <ns2:itemName>A-WX-EMP-COUNT</ns2:itemName>
+        <ns2:lineType>CONFIGURABLE</ns2:lineType>
+        <ns2:quantity>1</ns2:quantity>
+        <ns2:configPath>A-WX-EMP-COUNT</ns2:configPath>
+        <ns2:selectionFlag>USER</ns2:selectionFlag>
+        <ns2:description>Webex Employee Count (1)</ns2:description>
+<ns2:transactionCode>REPLACE</ns2:transactionCode>
+        <ns2:pricingInfo>
+            <ns2:unitListPrice>0.00</ns2:unitListPrice>
+            <ns2:unitListPriceQty>0.00</ns2:unitListPriceQty>
+            <ns2:extendedListPrice>0.00</ns2:extendedListPrice>
+            <ns2:decimalExp>2</ns2:decimalExp>
+            <ns2:listPriceVersion>1</ns2:listPriceVersion>
+        </ns2:pricingInfo>
+        <ns2:sourceLineId>0</ns2:sourceLineId>
+        <ns2:uiHide>false</ns2:uiHide>
+        <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+        <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+        <ns2:extendedAttributes>
+            <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+            <attribute type="string" name="SMART_LICENSE">Y</attribute>
+        </ns2:extendedAttributes>
+        <ns2:actionTag>NEW</ns2:actionTag>
+        <ns2:status>VALID</ns2:status>
+        <ns2:configValidationTimeStamp>2018-09-09T04:15:08.176-07:00</ns2:configValidationTimeStamp>
+        <ns2:xaasTermPayment>
+            <ns2:requestedStartDate>2018-09-12</ns2:requestedStartDate>
+            <ns2:startDate>2018-09-12</ns2:startDate>
+            <ns2:endDate>2019-09-27</ns2:endDate>
+            <ns2:initialTerm>12.5333333333333</ns2:initialTerm>
+            <ns2:autoRenewalTerm>12</ns2:autoRenewalTerm>
+            <ns2:prepayTerm>1</ns2:prepayTerm>
+            <ns2:billingModel>Monthly Billing</ns2:billingModel>
+<ns2:billDayOfMonth>14</ns2:billDayOfMonth>
+        </ns2:xaasTermPayment>
+        <ns2:xaasMinorLine>
+            <ns2:lineId>0</ns2:lineId>
+            <ns2:itemName>A-WX-EC-MTGS-1K</ns2:itemName>
+            <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+            <ns2:quantity>1000</ns2:quantity>
+            <ns2:configPath>A-WX-EC-MTGS-1K</ns2:configPath>
+            <ns2:selectionFlag>USER</ns2:selectionFlag>
+            <ns2:description>Webex Meetings 1,000</ns2:description>
+            <ns2:leadTime>35</ns2:leadTime>
+            <ns2:pricingInfo>
+                <ns2:unitListPrice>15.00</ns2:unitListPrice>
+                <ns2:unitListPriceQty>15000.00</ns2:unitListPriceQty>
+                <ns2:extendedListPrice>180000.00</ns2:extendedListPrice>
+                <ns2:decimalExp>2</ns2:decimalExp>
+                <ns2:listPriceVersion>9</ns2:listPriceVersion>
+            </ns2:pricingInfo>
+            <ns2:uiHide>false</ns2:uiHide>
+            <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+            <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+            <ns2:billingAttributes>
+                <attribute type="string" name="QUANTITY">1000</attribute>
+            </ns2:billingAttributes>
+            <ns2:extendedAttributes>
+                <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                <attribute type="string" name="nonStandard">N</attribute>
+            </ns2:extendedAttributes>
+            <ns2:actionTag>ADD</ns2:actionTag>
+            <ns2:usageQuantity>0</ns2:usageQuantity>
+            <ns2:default>N</ns2:default>
+            <ns2:uom>User</ns2:uom>
+            <ns2:billingType>1</ns2:billingType>
+            <ns2:chargeType>Recurring</ns2:chargeType>
+            <ns2:groupDescription>Conferencing</ns2:groupDescription>
+        </ns2:xaasMinorLine>
+        <ns2:xaasMinorLine>
+            <ns2:lineId>0</ns2:lineId>
+            <ns2:itemName>A-WX-EC-MTGS-OVR</ns2:itemName>
+            <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+            <ns2:quantity>1</ns2:quantity>
+            <ns2:configPath>A-WX-EC-MTGS-OVR</ns2:configPath>
+            <ns2:selectionFlag>USER</ns2:selectionFlag>
+            <ns2:description>Emp Count Meeting Center Attendee Overage (1)</ns2:description>
+            <ns2:leadTime>35</ns2:leadTime>
+            <ns2:pricingInfo>
+                <ns2:unitListPrice>37.00</ns2:unitListPrice>
+                <ns2:unitListPriceQty>37.00</ns2:unitListPriceQty>
+                <ns2:extendedListPrice>37.00</ns2:extendedListPrice>
+                <ns2:rateTableProtection>N</ns2:rateTableProtection>
+                <ns2:decimalExp>2</ns2:decimalExp>
+                <ns2:listPriceVersion>2</ns2:listPriceVersion>
+            </ns2:pricingInfo>
+            <ns2:uiHide>false</ns2:uiHide>
+            <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+            <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+            <ns2:billingAttributes>
+                <attribute type="string" name="PARENT_SKU">A-WX-EC-MTGS-1K</attribute>
+            </ns2:billingAttributes>
+            <ns2:extendedAttributes>
+                <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                <attribute type="string" name="nonStandard">N</attribute>
+            </ns2:extendedAttributes>
+            <ns2:actionTag>ADD</ns2:actionTag>
+            <ns2:usageQuantity>1000</ns2:usageQuantity>
+            <ns2:default>Y</ns2:default>
+            <ns2:uom>Attendee</ns2:uom>
+            <ns2:billingType>1</ns2:billingType>
+            <ns2:chargeType>Usage</ns2:chargeType>
+            <ns2:groupDescription>Conferencing</ns2:groupDescription>
+        </ns2:xaasMinorLine>
+        <ns2:xaasMinorLine>
+            <ns2:lineId>0</ns2:lineId>
+            <ns2:itemName>A-WX-EC-CMR-25</ns2:itemName>
+            <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+            <ns2:quantity>1000</ns2:quantity>
+            <ns2:configPath>A-WX-EC-CMR-25</ns2:configPath>
+            <ns2:selectionFlag>USER</ns2:selectionFlag>
+            <ns2:description>Emp Count Collaboration Meeting Rooms Capacity 25 (1)</ns2:description>
+            <ns2:pricingInfo>
+                <ns2:unitListPrice>0.00</ns2:unitListPrice>
+                <ns2:unitListPriceQty>0.00</ns2:unitListPriceQty>
+                <ns2:extendedListPrice>0.00</ns2:extendedListPrice>
+                <ns2:decimalExp>2</ns2:decimalExp>
+                <ns2:listPriceVersion>9</ns2:listPriceVersion>
+            </ns2:pricingInfo>
+            <ns2:uiHide>false</ns2:uiHide>
+            <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+            <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+            <ns2:extendedAttributes>
+                <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                <attribute type="string" name="nonStandard">N</attribute>
+            </ns2:extendedAttributes>
+            <ns2:actionTag>ADD</ns2:actionTag>
+            <ns2:usageQuantity>0</ns2:usageQuantity>
+            <ns2:default>N</ns2:default>
+            <ns2:uom>User</ns2:uom>
+            <ns2:billingType>1</ns2:billingType>
+            <ns2:chargeType>Recurring</ns2:chargeType>
+            <ns2:groupDescription>Conferencing</ns2:groupDescription>
+        </ns2:xaasMinorLine>
+        <ns2:xaasMinorLine>
+            <ns2:lineId>0</ns2:lineId>
+            <ns2:itemName>A-SPK-M3-MC-MSG-PV</ns2:itemName>
+            <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+            <ns2:quantity>1200</ns2:quantity>
+            <ns2:configPath>A-SPK-M3-MC-MSG-PV</ns2:configPath>
+            <ns2:selectionFlag>USER</ns2:selectionFlag>
+            <ns2:description>Webex Meetings 1,000</ns2:description>
+            <ns2:leadTime>35</ns2:leadTime>
+            <ns2:pricingInfo>
+                <ns2:unitListPrice>0.00</ns2:unitListPrice>
+                <ns2:unitListPriceQty>0.00</ns2:unitListPriceQty>
+                <ns2:extendedListPrice>0.00</ns2:extendedListPrice>
+                <ns2:decimalExp>2</ns2:decimalExp>
+                <ns2:listPriceVersion>1</ns2:listPriceVersion>
+            </ns2:pricingInfo>
+            <ns2:uiHide>false</ns2:uiHide>
+            <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+            <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+            <ns2:extendedAttributes>
+                <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                <attribute type="string" name="nonStandard">N</attribute>
+            </ns2:extendedAttributes>
+            <ns2:actionTag>ADD</ns2:actionTag>
+            <ns2:usageQuantity>0</ns2:usageQuantity>
+            <ns2:default>N</ns2:default>
+            <ns2:uom>User</ns2:uom>
+            <ns2:billingType>1</ns2:billingType>
+            <ns2:chargeType>Recurring</ns2:chargeType>
+            <ns2:groupDescription>Conferencing</ns2:groupDescription>
+        </ns2:xaasMinorLine>
+        <ns2:xaasMinorLine>
+            <ns2:lineId>0</ns2:lineId>
+            <ns2:itemName>A-SPK-M1-PV</ns2:itemName>
+            <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+            <ns2:quantity>1200</ns2:quantity>
+            <ns2:configPath>A-SPK-M1-PV</ns2:configPath>
+            <ns2:selectionFlag>USER</ns2:selectionFlag>
+            <ns2:description>Business Messaging (1) - Uplift</ns2:description>
+            <ns2:leadTime>35</ns2:leadTime>
+            <ns2:pricingInfo>
+                <ns2:unitListPrice>0.00</ns2:unitListPrice>
+                <ns2:unitListPriceQty>0.00</ns2:unitListPriceQty>
+                <ns2:extendedListPrice>0.00</ns2:extendedListPrice>
+                <ns2:decimalExp>2</ns2:decimalExp>
+                <ns2:listPriceVersion>1</ns2:listPriceVersion>
+            </ns2:pricingInfo>
+            <ns2:uiHide>false</ns2:uiHide>
+            <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+            <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+            <ns2:extendedAttributes>
+                <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Optional</attribute>
+                <attribute type="string" name="nonStandard">N</attribute>
+            </ns2:extendedAttributes>
+            <ns2:actionTag>ADD</ns2:actionTag>
+            <ns2:usageQuantity>0</ns2:usageQuantity>
+            <ns2:default>N</ns2:default>
+            <ns2:uom>User</ns2:uom>
+            <ns2:billingType>1</ns2:billingType>
+            <ns2:chargeType>Recurring</ns2:chargeType>
+            <ns2:groupDescription>Conferencing</ns2:groupDescription>
+        </ns2:xaasMinorLine>
+        <ns2:xaasMinorLine>
+            <ns2:lineId>0</ns2:lineId>
+            <ns2:itemName>A-WX-MSG-PV</ns2:itemName>
+            <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+            <ns2:quantity>1200</ns2:quantity>
+            <ns2:configPath>A-WX-MSG-PV</ns2:configPath>
+            <ns2:selectionFlag>USER</ns2:selectionFlag>
+            <ns2:description>Cisco Enh. Messaging in Webex Teams (1)</ns2:description>
+            <ns2:leadTime>35</ns2:leadTime>
+            <ns2:pricingInfo>
+                <ns2:unitListPrice>0.00</ns2:unitListPrice>
+                <ns2:unitListPriceQty>0.00</ns2:unitListPriceQty>
+                <ns2:extendedListPrice>0.00</ns2:extendedListPrice>
+                <ns2:decimalExp>2</ns2:decimalExp>
+                <ns2:listPriceVersion>1</ns2:listPriceVersion>
+            </ns2:pricingInfo>
+            <ns2:uiHide>false</ns2:uiHide>
+            <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+            <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+            <ns2:extendedAttributes>
+                <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                <attribute type="string" name="nonStandard">N</attribute>
+            </ns2:extendedAttributes>
+            <ns2:actionTag>ADD</ns2:actionTag>
+            <ns2:usageQuantity>0</ns2:usageQuantity>
+            <ns2:default>N</ns2:default>
+            <ns2:uom>User</ns2:uom>
+            <ns2:billingType>1</ns2:billingType>
+            <ns2:chargeType>Recurring</ns2:chargeType>
+            <ns2:groupDescription>Conferencing</ns2:groupDescription>
+        </ns2:xaasMinorLine>
+        <ns2:xaasMinorLine>
+            <ns2:lineId>0</ns2:lineId>
+            <ns2:itemName>A-WX-IM-INC</ns2:itemName>
+            <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+            <ns2:quantity>1000</ns2:quantity>
+            <ns2:configPath>A-WX-IM-INC</ns2:configPath>
+            <ns2:selectionFlag>USER</ns2:selectionFlag>
+            <ns2:description>Cisco Enh. Messaging in Webex Teams (1)</ns2:description>
+            <ns2:leadTime>35</ns2:leadTime>
+            <ns2:pricingInfo>
+                <ns2:unitListPrice>0.00</ns2:unitListPrice>
+                <ns2:unitListPriceQty>0.00</ns2:unitListPriceQty>
+                <ns2:extendedListPrice>0.00</ns2:extendedListPrice>
+                <ns2:decimalExp>2</ns2:decimalExp>
+                <ns2:listPriceVersion>1</ns2:listPriceVersion>
+            </ns2:pricingInfo>
+            <ns2:uiHide>false</ns2:uiHide>
+            <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+            <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+            <ns2:billingAttributes>
+                <attribute type="string" name="QUANTITY">1000</attribute>
+            </ns2:billingAttributes>
+            <ns2:extendedAttributes>
+                <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                <attribute type="string" name="nonStandard">N</attribute>
+            </ns2:extendedAttributes>
+            <ns2:actionTag>ADD</ns2:actionTag>
+            <ns2:usageQuantity>0</ns2:usageQuantity>
+            <ns2:default>Y</ns2:default>
+            <ns2:uom>User</ns2:uom>
+            <ns2:billingType>1</ns2:billingType>
+            <ns2:chargeType>Recurring</ns2:chargeType>
+            <ns2:groupDescription>Instant Messaging</ns2:groupDescription>
+        </ns2:xaasMinorLine>
+        <ns2:xaasMinorLine>
+            <ns2:lineId>0</ns2:lineId>
+            <ns2:itemName>A-WX-EC-RMSTG-INC</ns2:itemName>
+            <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+            <ns2:quantity>5000</ns2:quantity>
+            <ns2:configPath>A-WX-EC-RMSTG-INC</ns2:configPath>
+            <ns2:selectionFlag>USER</ns2:selectionFlag>
+            <ns2:description>Included file storage (1)</ns2:description>
+            <ns2:leadTime>35</ns2:leadTime>
+            <ns2:pricingInfo>
+                <ns2:unitListPrice>0.00</ns2:unitListPrice>
+                <ns2:unitListPriceQty>0.00</ns2:unitListPriceQty>
+                <ns2:extendedListPrice>0.00</ns2:extendedListPrice>
+                <ns2:decimalExp>2</ns2:decimalExp>
+                <ns2:listPriceVersion>1</ns2:listPriceVersion>
+            </ns2:pricingInfo>
+            <ns2:uiHide>false</ns2:uiHide>
+            <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+            <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+            <ns2:billingAttributes>
+                <attribute type="string" name="QUANTITY">5000</attribute>
+            </ns2:billingAttributes>
+            <ns2:extendedAttributes>
+                <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                <attribute type="string" name="nonStandard">N</attribute>
+            </ns2:extendedAttributes>
+            <ns2:actionTag>ADD</ns2:actionTag>
+            <ns2:usageQuantity>0</ns2:usageQuantity>
+            <ns2:default>N</ns2:default>
+            <ns2:uom>GB</ns2:uom>
+            <ns2:billingType>1</ns2:billingType>
+            <ns2:chargeType>Recurring</ns2:chargeType>
+            <ns2:groupDescription>Instant Messaging</ns2:groupDescription>
+        </ns2:xaasMinorLine>
+        <ns2:xaasMinorLine>
+            <ns2:lineId>0</ns2:lineId>
+            <ns2:itemName>A-WX-EC-RMSTG-OVR</ns2:itemName>
+            <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+            <ns2:quantity>1</ns2:quantity>
+            <ns2:configPath>A-WX-EC-RMSTG-OVR</ns2:configPath>
+            <ns2:selectionFlag>USER</ns2:selectionFlag>
+            <ns2:description>File storage overage</ns2:description>
+            <ns2:pricingInfo>
+                <ns2:unitListPrice>3.63</ns2:unitListPrice>
+                <ns2:unitListPriceQty>3.63</ns2:unitListPriceQty>
+                <ns2:extendedListPrice>3.63</ns2:extendedListPrice>
+                <ns2:rateTableProtection>N</ns2:rateTableProtection>
+                <ns2:decimalExp>2</ns2:decimalExp>
+                <ns2:listPriceVersion>1</ns2:listPriceVersion>
+            </ns2:pricingInfo>
+            <ns2:uiHide>false</ns2:uiHide>
+            <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+            <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+            <ns2:billingAttributes>
+                <attribute type="string" name="PARENT_SKU">A-WX-IM-INC</attribute>
+            </ns2:billingAttributes>
+            <ns2:extendedAttributes>
+                <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                <attribute type="string" name="nonStandard">N</attribute>
+            </ns2:extendedAttributes>
+            <ns2:actionTag>ADD</ns2:actionTag>
+            <ns2:usageQuantity>1000</ns2:usageQuantity>
+            <ns2:default>N</ns2:default>
+            <ns2:uom>GB</ns2:uom>
+            <ns2:billingType>1</ns2:billingType>
+            <ns2:chargeType>Usage</ns2:chargeType>
+            <ns2:groupDescription>Instant Messaging</ns2:groupDescription>
+        </ns2:xaasMinorLine>
+        <ns2:xaasMinorLine>
+            <ns2:lineId>0</ns2:lineId>
+            <ns2:itemName>A-WX-STORAGE-INC</ns2:itemName>
+            <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+            <ns2:quantity>50</ns2:quantity>
+            <ns2:configPath>A-WX-STORAGE-INC</ns2:configPath>
+            <ns2:selectionFlag>USER</ns2:selectionFlag>
+            <ns2:description>Included Storage (1)</ns2:description>
+            <ns2:leadTime>35</ns2:leadTime>
+            <ns2:pricingInfo>
+                <ns2:unitListPrice>0.00</ns2:unitListPrice>
+                <ns2:unitListPriceQty>0.00</ns2:unitListPriceQty>
+                <ns2:extendedListPrice>0.00</ns2:extendedListPrice>
+                <ns2:decimalExp>2</ns2:decimalExp>
+                <ns2:listPriceVersion>1</ns2:listPriceVersion>
+            </ns2:pricingInfo>
+            <ns2:uiHide>false</ns2:uiHide>
+            <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+            <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+            <ns2:billingAttributes>
+                <attribute type="string" name="QUANTITY">50</attribute>
+            </ns2:billingAttributes>
+            <ns2:extendedAttributes>
+                <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                <attribute type="string" name="nonStandard">N</attribute>
+            </ns2:extendedAttributes>
+            <ns2:actionTag>ADD</ns2:actionTag>
+            <ns2:usageQuantity>0</ns2:usageQuantity>
+            <ns2:default>N</ns2:default>
+            <ns2:uom>GB</ns2:uom>
+            <ns2:billingType>1</ns2:billingType>
+            <ns2:chargeType>Recurring</ns2:chargeType>
+            <ns2:groupDescription>WebEx Storage Add On</ns2:groupDescription>
+        </ns2:xaasMinorLine>
+        <ns2:xaasMinorLine>
+            <ns2:lineId>0</ns2:lineId>
+            <ns2:itemName>A-WX-STORAGE-OVR</ns2:itemName>
+            <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+            <ns2:quantity>1</ns2:quantity>
+            <ns2:configPath>A-WX-STORAGE-OVR</ns2:configPath>
+            <ns2:selectionFlag>USER</ns2:selectionFlag>
+            <ns2:description>Enable Storage Overage (1)</ns2:description>
+            <ns2:leadTime>35</ns2:leadTime>
+            <ns2:pricingInfo>
+                <ns2:unitListPrice>3.63</ns2:unitListPrice>
+                <ns2:unitListPriceQty>3.63</ns2:unitListPriceQty>
+                <ns2:extendedListPrice>3.63</ns2:extendedListPrice>
+                <ns2:rateTableProtection>N</ns2:rateTableProtection>
+                <ns2:decimalExp>2</ns2:decimalExp>
+                <ns2:listPriceVersion>1</ns2:listPriceVersion>
+            </ns2:pricingInfo>
+            <ns2:uiHide>false</ns2:uiHide>
+            <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+            <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+            <ns2:extendedAttributes>
+                <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                <attribute type="string" name="nonStandard">N</attribute>
+            </ns2:extendedAttributes>
+            <ns2:actionTag>ADD</ns2:actionTag>
+            <ns2:usageQuantity>0</ns2:usageQuantity>
+            <ns2:default>Y</ns2:default>
+            <ns2:uom>GB</ns2:uom>
+            <ns2:billingType>1</ns2:billingType>
+            <ns2:chargeType>Usage</ns2:chargeType>
+            <ns2:groupDescription>WebEx Storage Add On</ns2:groupDescription>
+        </ns2:xaasMinorLine>
+        <ns2:xaasMinorLine>
+            <ns2:lineId>0</ns2:lineId>
+            <ns2:itemName>A-WX-VOIP</ns2:itemName>
+            <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+            <ns2:quantity>1</ns2:quantity>
+            <ns2:configPath>A-WX-VOIP</ns2:configPath>
+            <ns2:selectionFlag>USER</ns2:selectionFlag>
+            <ns2:description>WebEx VoIP (1)</ns2:description>
+            <ns2:leadTime>35</ns2:leadTime>
+            <ns2:pricingInfo>
+                <ns2:unitListPrice>0.00</ns2:unitListPrice>
+                <ns2:unitListPriceQty>0.00</ns2:unitListPriceQty>
+                <ns2:extendedListPrice>0.00</ns2:extendedListPrice>
+                <ns2:decimalExp>2</ns2:decimalExp>
+                <ns2:listPriceVersion>1</ns2:listPriceVersion>
+            </ns2:pricingInfo>
+            <ns2:uiHide>false</ns2:uiHide>
+            <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+            <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+            <ns2:extendedAttributes>
+                <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                <attribute type="string" name="nonStandard">N</attribute>
+            </ns2:extendedAttributes>
+            <ns2:actionTag>ADD</ns2:actionTag>
+            <ns2:usageQuantity>0</ns2:usageQuantity>
+            <ns2:default>Y</ns2:default>
+            <ns2:uom>Each</ns2:uom>
+            <ns2:billingType>1</ns2:billingType>
+            <ns2:chargeType>Recurring</ns2:chargeType>
+            <ns2:groupDescription>WebEx Audio Add On</ns2:groupDescription>
+        </ns2:xaasMinorLine>
+        <ns2:xaasMinorLine>
+            <ns2:lineId>0</ns2:lineId>
+            <ns2:itemName>SVS-WX-SUPT-BAS</ns2:itemName>
+            <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+            <ns2:quantity>1</ns2:quantity>
+            <ns2:configPath>SVS-WX-SUPT-BAS</ns2:configPath>
+            <ns2:selectionFlag>USER</ns2:selectionFlag>
+            <ns2:description>Basic Support for WebEx</ns2:description>
+            <ns2:pricingInfo>
+                <ns2:unitListPrice>0.00</ns2:unitListPrice>
+                <ns2:unitListPriceQty>0.00</ns2:unitListPriceQty>
+                <ns2:extendedListPrice>0.00</ns2:extendedListPrice>
+                <ns2:decimalExp>2</ns2:decimalExp>
+                <ns2:listPriceVersion>3</ns2:listPriceVersion>
+            </ns2:pricingInfo>
+            <ns2:uiHide>false</ns2:uiHide>
+            <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+            <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+            <ns2:extendedAttributes>
+                <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Optional</attribute>
+                <attribute type="string" name="nonStandard">N</attribute>
+            </ns2:extendedAttributes>
+            <ns2:actionTag>ADD</ns2:actionTag>
+            <ns2:usageQuantity>0</ns2:usageQuantity>
+            <ns2:default>Y</ns2:default>
+            <ns2:uom>Each</ns2:uom>
+            <ns2:billingType>1</ns2:billingType>
+            <ns2:chargeType>Recurring</ns2:chargeType>
+            <ns2:groupDescription>WebEx Support Options</ns2:groupDescription>
+        </ns2:xaasMinorLine>
+        <ns2:xaasMinorLine>
+            <ns2:lineId>0</ns2:lineId>
+            <ns2:itemName>A-WX-EARLY-TERM</ns2:itemName>
+            <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+            <ns2:quantity>1</ns2:quantity>
+            <ns2:configPath>A-WX-EARLY-TERM</ns2:configPath>
+            <ns2:selectionFlag>USER</ns2:selectionFlag>
+            <ns2:description>Early Termination Fee</ns2:description>
+            <ns2:leadTime>35</ns2:leadTime>
+            <ns2:pricingInfo>
+                <ns2:unitListPrice>0.00</ns2:unitListPrice>
+                <ns2:unitListPriceQty>0.00</ns2:unitListPriceQty>
+                <ns2:extendedListPrice>0.00</ns2:extendedListPrice>
+                <ns2:decimalExp>2</ns2:decimalExp>
+                <ns2:listPriceVersion>1</ns2:listPriceVersion>
+            </ns2:pricingInfo>
+            <ns2:uiHide>true</ns2:uiHide>
+            <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+            <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+            <ns2:extendedAttributes>
+                <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                <attribute type="string" name="nonStandard">N</attribute>
+            </ns2:extendedAttributes>
+            <ns2:actionTag>ADD</ns2:actionTag>
+            <ns2:usageQuantity>0</ns2:usageQuantity>
+            <ns2:default>N</ns2:default>
+            <ns2:uom>Each</ns2:uom>
+            <ns2:billingType>1</ns2:billingType>
+            <ns2:chargeType>ETF</ns2:chargeType>
+            <ns2:groupDescription>Other</ns2:groupDescription>
+        </ns2:xaasMinorLine>
+        <ns2:transactionId>agoi4k3tbsit3flxumpj2rfkz</ns2:transactionId>
+        <ns2:referenceInfo subscriptionId="SubC342" configId="0">
+            <ns2:lineId>0</ns2:lineId>
+            <ns2:itemName>A-WX-EMP-COUNT</ns2:itemName>
+            <ns2:lineType>CONFIGURABLE</ns2:lineType>
+            <ns2:quantity>1</ns2:quantity>
+            <ns2:configPath>A-WX-EMP-COUNT</ns2:configPath>
+            <ns2:selectionFlag>USER</ns2:selectionFlag>
+            <ns2:description>Webex Employee Count (1)</ns2:description>
+            <ns2:pricingInfo>
+                <ns2:unitListPrice>0.00</ns2:unitListPrice>
+                <ns2:unitListPriceQty>0.00</ns2:unitListPriceQty>
+                <ns2:extendedListPrice>0.00</ns2:extendedListPrice>
+                <ns2:decimalExp>2</ns2:decimalExp>
+                <ns2:listPriceVersion>1</ns2:listPriceVersion>
+            </ns2:pricingInfo>
+            <ns2:sourceLineId>0</ns2:sourceLineId>
+            <ns2:uiHide>false</ns2:uiHide>
+            <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+            <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+            <ns2:extendedAttributes>
+                <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                <attribute type="string" name="SMART_LICENSE">Y</attribute>
+            </ns2:extendedAttributes>
+            <ns2:actionTag>NEW</ns2:actionTag>
+            <ns2:status>VALID</ns2:status>
+            <ns2:configValidationTimeStamp>2018-09-09T04:15:08.176-07:00</ns2:configValidationTimeStamp>
+        <ns2:xaasTermPayment>
+            <ns2:requestedStartDate>2018-09-12</ns2:requestedStartDate>
+            <ns2:startDate>2018-09-12</ns2:startDate>
+            <ns2:endDate>2019-09-27</ns2:endDate>
+            <ns2:initialTerm>12.5333333333333</ns2:initialTerm>
+            <ns2:autoRenewalTerm>12</ns2:autoRenewalTerm>
+            <ns2:prepayTerm>1</ns2:prepayTerm>
+            <ns2:billingModel>Monthly Billing</ns2:billingModel>
+        </ns2:xaasTermPayment>
+            <ns2:xaasMinorLine>
+                <ns2:lineId>0</ns2:lineId>
+                <ns2:itemName>A-WX-EC-MTGS-1K</ns2:itemName>
+                <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+                <ns2:quantity>1000</ns2:quantity>
+                <ns2:configPath>A-WX-EC-MTGS-1K</ns2:configPath>
+                <ns2:selectionFlag>USER</ns2:selectionFlag>
+                <ns2:description>Webex Meetings 1,000</ns2:description>
+                <ns2:leadTime>35</ns2:leadTime>
+                <ns2:pricingInfo>
+                    <ns2:unitListPrice>15.00</ns2:unitListPrice>
+                    <ns2:unitListPriceQty>15000.00</ns2:unitListPriceQty>
+                    <ns2:extendedListPrice>180000.00</ns2:extendedListPrice>
+                    <ns2:decimalExp>2</ns2:decimalExp>
+                    <ns2:listPriceVersion>9</ns2:listPriceVersion>
+                </ns2:pricingInfo>
+                <ns2:uiHide>false</ns2:uiHide>
+                <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+                <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+                <ns2:billingAttributes>
+                    <attribute type="string" name="QUANTITY">1000</attribute>
+                </ns2:billingAttributes>
+                <ns2:extendedAttributes>
+                    <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                    <attribute type="string" name="nonStandard">N</attribute>
+                </ns2:extendedAttributes>
+                <ns2:actionTag>ADD</ns2:actionTag>
+                <ns2:usageQuantity>0</ns2:usageQuantity>
+                <ns2:default>N</ns2:default>
+                <ns2:uom>User</ns2:uom>
+                <ns2:billingType>1</ns2:billingType>
+                <ns2:chargeType>Recurring</ns2:chargeType>
+                <ns2:groupDescription>Conferencing</ns2:groupDescription>
+            </ns2:xaasMinorLine>
+            <ns2:xaasMinorLine>
+                <ns2:lineId>0</ns2:lineId>
+                <ns2:itemName>A-WX-EC-MTGS-OVR</ns2:itemName>
+                <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+                <ns2:quantity>1</ns2:quantity>
+                <ns2:configPath>A-WX-EC-MTGS-OVR</ns2:configPath>
+                <ns2:selectionFlag>USER</ns2:selectionFlag>
+                <ns2:description>Emp Count Meeting Center Attendee Overage (1)</ns2:description>
+                <ns2:leadTime>35</ns2:leadTime>
+                <ns2:pricingInfo>
+                    <ns2:unitListPrice>37.00</ns2:unitListPrice>
+                    <ns2:unitListPriceQty>37.00</ns2:unitListPriceQty>
+                    <ns2:extendedListPrice>37.00</ns2:extendedListPrice>
+                    <ns2:rateTableProtection>N</ns2:rateTableProtection>
+                    <ns2:decimalExp>2</ns2:decimalExp>
+                    <ns2:listPriceVersion>2</ns2:listPriceVersion>
+                </ns2:pricingInfo>
+                <ns2:uiHide>false</ns2:uiHide>
+                <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+                <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+                <ns2:billingAttributes>
+                    <attribute type="string" name="PARENT_SKU">A-WX-EC-MTGS-1K</attribute>
+                </ns2:billingAttributes>
+                <ns2:extendedAttributes>
+                    <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                    <attribute type="string" name="nonStandard">N</attribute>
+                </ns2:extendedAttributes>
+                <ns2:actionTag>ADD</ns2:actionTag>
+                <ns2:usageQuantity>1000</ns2:usageQuantity>
+                <ns2:default>Y</ns2:default>
+                <ns2:uom>Attendee</ns2:uom>
+                <ns2:billingType>1</ns2:billingType>
+                <ns2:chargeType>Usage</ns2:chargeType>
+                <ns2:groupDescription>Conferencing</ns2:groupDescription>
+            </ns2:xaasMinorLine>
+            <ns2:xaasMinorLine>
+                <ns2:lineId>0</ns2:lineId>
+                <ns2:itemName>A-WX-EC-CMR-25</ns2:itemName>
+                <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+                <ns2:quantity>1000</ns2:quantity>
+                <ns2:configPath>A-WX-EC-CMR-25</ns2:configPath>
+                <ns2:selectionFlag>USER</ns2:selectionFlag>
+                <ns2:description>Emp Count Collaboration Meeting Rooms Capacity 25 (1)</ns2:description>
+                <ns2:pricingInfo>
+                    <ns2:unitListPrice>0.00</ns2:unitListPrice>
+                    <ns2:unitListPriceQty>0.00</ns2:unitListPriceQty>
+                    <ns2:extendedListPrice>0.00</ns2:extendedListPrice>
+                    <ns2:decimalExp>2</ns2:decimalExp>
+                    <ns2:listPriceVersion>9</ns2:listPriceVersion>
+                </ns2:pricingInfo>
+                <ns2:uiHide>false</ns2:uiHide>
+                <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+                <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+                <ns2:extendedAttributes>
+                    <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                    <attribute type="string" name="nonStandard">N</attribute>
+                </ns2:extendedAttributes>
+                <ns2:actionTag>ADD</ns2:actionTag>
+                <ns2:usageQuantity>0</ns2:usageQuantity>
+                <ns2:default>N</ns2:default>
+                <ns2:uom>User</ns2:uom>
+                <ns2:billingType>1</ns2:billingType>
+                <ns2:chargeType>Recurring</ns2:chargeType>
+                <ns2:groupDescription>Conferencing</ns2:groupDescription>
+            </ns2:xaasMinorLine>
+            <ns2:xaasMinorLine>
+                <ns2:lineId>0</ns2:lineId>
+                <ns2:itemName>A-SPK-M3-MC-MSG-PV</ns2:itemName>
+                <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+                <ns2:quantity>1200</ns2:quantity>
+                <ns2:configPath>A-SPK-M3-MC-MSG-PV</ns2:configPath>
+                <ns2:selectionFlag>USER</ns2:selectionFlag>
+                <ns2:description>Webex Meetings 1,000</ns2:description>
+                <ns2:leadTime>35</ns2:leadTime>
+                <ns2:pricingInfo>
+                    <ns2:unitListPrice>0.00</ns2:unitListPrice>
+                    <ns2:unitListPriceQty>0.00</ns2:unitListPriceQty>
+                    <ns2:extendedListPrice>0.00</ns2:extendedListPrice>
+                    <ns2:decimalExp>2</ns2:decimalExp>
+                    <ns2:listPriceVersion>1</ns2:listPriceVersion>
+                </ns2:pricingInfo>
+                <ns2:uiHide>false</ns2:uiHide>
+                <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+                <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+                <ns2:extendedAttributes>
+                    <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                    <attribute type="string" name="nonStandard">N</attribute>
+                </ns2:extendedAttributes>
+                <ns2:actionTag>ADD</ns2:actionTag>
+                <ns2:usageQuantity>0</ns2:usageQuantity>
+                <ns2:default>N</ns2:default>
+                <ns2:uom>User</ns2:uom>
+                <ns2:billingType>1</ns2:billingType>
+                <ns2:chargeType>Recurring</ns2:chargeType>
+                <ns2:groupDescription>Conferencing</ns2:groupDescription>
+            </ns2:xaasMinorLine>
+            <ns2:xaasMinorLine>
+                <ns2:lineId>0</ns2:lineId>
+                <ns2:itemName>A-SPK-M1-PV</ns2:itemName>
+                <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+                <ns2:quantity>1200</ns2:quantity>
+                <ns2:configPath>A-SPK-M1-PV</ns2:configPath>
+                <ns2:selectionFlag>USER</ns2:selectionFlag>
+                <ns2:description>Business Messaging (1) - Uplift</ns2:description>
+                <ns2:leadTime>35</ns2:leadTime>
+                <ns2:pricingInfo>
+                    <ns2:unitListPrice>0.00</ns2:unitListPrice>
+                    <ns2:unitListPriceQty>0.00</ns2:unitListPriceQty>
+                    <ns2:extendedListPrice>0.00</ns2:extendedListPrice>
+                    <ns2:decimalExp>2</ns2:decimalExp>
+                    <ns2:listPriceVersion>1</ns2:listPriceVersion>
+                </ns2:pricingInfo>
+                <ns2:uiHide>false</ns2:uiHide>
+                <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+                <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+                <ns2:extendedAttributes>
+                    <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Optional</attribute>
+                    <attribute type="string" name="nonStandard">N</attribute>
+                </ns2:extendedAttributes>
+                <ns2:actionTag>ADD</ns2:actionTag>
+                <ns2:usageQuantity>0</ns2:usageQuantity>
+                <ns2:default>N</ns2:default>
+                <ns2:uom>User</ns2:uom>
+                <ns2:billingType>1</ns2:billingType>
+                <ns2:chargeType>Recurring</ns2:chargeType>
+                <ns2:groupDescription>Conferencing</ns2:groupDescription>
+            </ns2:xaasMinorLine>
+            <ns2:xaasMinorLine>
+                <ns2:lineId>0</ns2:lineId>
+                <ns2:itemName>A-WX-MSG-PV</ns2:itemName>
+                <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+                <ns2:quantity>1200</ns2:quantity>
+                <ns2:configPath>A-WX-MSG-PV</ns2:configPath>
+                <ns2:selectionFlag>USER</ns2:selectionFlag>
+                <ns2:description>Cisco Enh. Messaging in Webex Teams (1)</ns2:description>
+                <ns2:leadTime>35</ns2:leadTime>
+                <ns2:pricingInfo>
+                    <ns2:unitListPrice>0.00</ns2:unitListPrice>
+                    <ns2:unitListPriceQty>0.00</ns2:unitListPriceQty>
+                    <ns2:extendedListPrice>0.00</ns2:extendedListPrice>
+                    <ns2:decimalExp>2</ns2:decimalExp>
+                    <ns2:listPriceVersion>1</ns2:listPriceVersion>
+                </ns2:pricingInfo>
+                <ns2:uiHide>false</ns2:uiHide>
+                <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+                <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+                <ns2:extendedAttributes>
+                    <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                    <attribute type="string" name="nonStandard">N</attribute>
+                </ns2:extendedAttributes>
+                <ns2:actionTag>ADD</ns2:actionTag>
+                <ns2:usageQuantity>0</ns2:usageQuantity>
+                <ns2:default>N</ns2:default>
+                <ns2:uom>User</ns2:uom>
+                <ns2:billingType>1</ns2:billingType>
+                <ns2:chargeType>Recurring</ns2:chargeType>
+                <ns2:groupDescription>Conferencing</ns2:groupDescription>
+            </ns2:xaasMinorLine>
+            <ns2:xaasMinorLine>
+                <ns2:lineId>0</ns2:lineId>
+                <ns2:itemName>A-WX-IM-INC</ns2:itemName>
+                <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+                <ns2:quantity>1000</ns2:quantity>
+                <ns2:configPath>A-WX-IM-INC</ns2:configPath>
+                <ns2:selectionFlag>USER</ns2:selectionFlag>
+                <ns2:description>Cisco Enh. Messaging in Webex Teams (1)</ns2:description>
+                <ns2:leadTime>35</ns2:leadTime>
+                <ns2:pricingInfo>
+                    <ns2:unitListPrice>0.00</ns2:unitListPrice>
+                    <ns2:unitListPriceQty>0.00</ns2:unitListPriceQty>
+                    <ns2:extendedListPrice>0.00</ns2:extendedListPrice>
+                    <ns2:decimalExp>2</ns2:decimalExp>
+                    <ns2:listPriceVersion>1</ns2:listPriceVersion>
+                </ns2:pricingInfo>
+                <ns2:uiHide>false</ns2:uiHide>
+                <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+                <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+                <ns2:billingAttributes>
+                    <attribute type="string" name="QUANTITY">1000</attribute>
+                </ns2:billingAttributes>
+                <ns2:extendedAttributes>
+                    <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                    <attribute type="string" name="nonStandard">N</attribute>
+                </ns2:extendedAttributes>
+                <ns2:actionTag>ADD</ns2:actionTag>
+                <ns2:usageQuantity>0</ns2:usageQuantity>
+                <ns2:default>Y</ns2:default>
+                <ns2:uom>User</ns2:uom>
+                <ns2:billingType>1</ns2:billingType>
+                <ns2:chargeType>Recurring</ns2:chargeType>
+                <ns2:groupDescription>Instant Messaging</ns2:groupDescription>
+            </ns2:xaasMinorLine>
+            <ns2:xaasMinorLine>
+                <ns2:lineId>0</ns2:lineId>
+                <ns2:itemName>A-WX-EC-RMSTG-INC</ns2:itemName>
+                <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+                <ns2:quantity>5000</ns2:quantity>
+                <ns2:configPath>A-WX-EC-RMSTG-INC</ns2:configPath>
+                <ns2:selectionFlag>USER</ns2:selectionFlag>
+                <ns2:description>Included file storage (1)</ns2:description>
+                <ns2:leadTime>35</ns2:leadTime>
+                <ns2:pricingInfo>
+                    <ns2:unitListPrice>0.00</ns2:unitListPrice>
+                    <ns2:unitListPriceQty>0.00</ns2:unitListPriceQty>
+                    <ns2:extendedListPrice>0.00</ns2:extendedListPrice>
+                    <ns2:decimalExp>2</ns2:decimalExp>
+                    <ns2:listPriceVersion>1</ns2:listPriceVersion>
+                </ns2:pricingInfo>
+                <ns2:uiHide>false</ns2:uiHide>
+                <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+                <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+                <ns2:billingAttributes>
+                    <attribute type="string" name="QUANTITY">5000</attribute>
+                </ns2:billingAttributes>
+                <ns2:extendedAttributes>
+                    <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                    <attribute type="string" name="nonStandard">N</attribute>
+                </ns2:extendedAttributes>
+                <ns2:actionTag>ADD</ns2:actionTag>
+                <ns2:usageQuantity>0</ns2:usageQuantity>
+                <ns2:default>N</ns2:default>
+                <ns2:uom>GB</ns2:uom>
+                <ns2:billingType>1</ns2:billingType>
+                <ns2:chargeType>Recurring</ns2:chargeType>
+                <ns2:groupDescription>Instant Messaging</ns2:groupDescription>
+            </ns2:xaasMinorLine>
+            <ns2:xaasMinorLine>
+                <ns2:lineId>0</ns2:lineId>
+                <ns2:itemName>A-WX-EC-RMSTG-OVR</ns2:itemName>
+                <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+                <ns2:quantity>1</ns2:quantity>
+                <ns2:configPath>A-WX-EC-RMSTG-OVR</ns2:configPath>
+                <ns2:selectionFlag>USER</ns2:selectionFlag>
+                <ns2:description>File storage overage</ns2:description>
+                <ns2:pricingInfo>
+                    <ns2:unitListPrice>3.63</ns2:unitListPrice>
+                    <ns2:unitListPriceQty>3.63</ns2:unitListPriceQty>
+                    <ns2:extendedListPrice>3.63</ns2:extendedListPrice>
+                    <ns2:rateTableProtection>N</ns2:rateTableProtection>
+                    <ns2:decimalExp>2</ns2:decimalExp>
+                    <ns2:listPriceVersion>1</ns2:listPriceVersion>
+                </ns2:pricingInfo>
+                <ns2:uiHide>false</ns2:uiHide>
+                <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+                <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+                <ns2:billingAttributes>
+                    <attribute type="string" name="PARENT_SKU">A-WX-IM-INC</attribute>
+                </ns2:billingAttributes>
+                <ns2:extendedAttributes>
+                    <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                    <attribute type="string" name="nonStandard">N</attribute>
+                </ns2:extendedAttributes>
+                <ns2:actionTag>ADD</ns2:actionTag>
+                <ns2:usageQuantity>1000</ns2:usageQuantity>
+                <ns2:default>N</ns2:default>
+                <ns2:uom>GB</ns2:uom>
+                <ns2:billingType>1</ns2:billingType>
+                <ns2:chargeType>Usage</ns2:chargeType>
+                <ns2:groupDescription>Instant Messaging</ns2:groupDescription>
+            </ns2:xaasMinorLine>
+            <ns2:xaasMinorLine>
+                <ns2:lineId>0</ns2:lineId>
+                <ns2:itemName>A-WX-STORAGE-INC</ns2:itemName>
+                <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+                <ns2:quantity>50</ns2:quantity>
+                <ns2:configPath>A-WX-STORAGE-INC</ns2:configPath>
+                <ns2:selectionFlag>USER</ns2:selectionFlag>
+                <ns2:description>Included Storage (1)</ns2:description>
+                <ns2:leadTime>35</ns2:leadTime>
+                <ns2:pricingInfo>
+                    <ns2:unitListPrice>0.00</ns2:unitListPrice>
+                    <ns2:unitListPriceQty>0.00</ns2:unitListPriceQty>
+                    <ns2:extendedListPrice>0.00</ns2:extendedListPrice>
+                    <ns2:decimalExp>2</ns2:decimalExp>
+                    <ns2:listPriceVersion>1</ns2:listPriceVersion>
+                </ns2:pricingInfo>
+                <ns2:uiHide>false</ns2:uiHide>
+                <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+                <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+                <ns2:billingAttributes>
+                    <attribute type="string" name="QUANTITY">50</attribute>
+                </ns2:billingAttributes>
+                <ns2:extendedAttributes>
+                    <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                    <attribute type="string" name="nonStandard">N</attribute>
+                </ns2:extendedAttributes>
+                <ns2:actionTag>ADD</ns2:actionTag>
+                <ns2:usageQuantity>0</ns2:usageQuantity>
+                <ns2:default>N</ns2:default>
+                <ns2:uom>GB</ns2:uom>
+                <ns2:billingType>1</ns2:billingType>
+                <ns2:chargeType>Recurring</ns2:chargeType>
+                <ns2:groupDescription>WebEx Storage Add On</ns2:groupDescription>
+            </ns2:xaasMinorLine>
+            <ns2:xaasMinorLine>
+                <ns2:lineId>0</ns2:lineId>
+                <ns2:itemName>A-WX-STORAGE-OVR</ns2:itemName>
+                <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+                <ns2:quantity>1</ns2:quantity>
+                <ns2:configPath>A-WX-STORAGE-OVR</ns2:configPath>
+                <ns2:selectionFlag>USER</ns2:selectionFlag>
+                <ns2:description>Enable Storage Overage (1)</ns2:description>
+                <ns2:leadTime>35</ns2:leadTime>
+                <ns2:pricingInfo>
+                    <ns2:unitListPrice>3.63</ns2:unitListPrice>
+                    <ns2:unitListPriceQty>3.63</ns2:unitListPriceQty>
+                    <ns2:extendedListPrice>3.63</ns2:extendedListPrice>
+                    <ns2:rateTableProtection>N</ns2:rateTableProtection>
+                    <ns2:decimalExp>2</ns2:decimalExp>
+                    <ns2:listPriceVersion>1</ns2:listPriceVersion>
+                </ns2:pricingInfo>
+                <ns2:uiHide>false</ns2:uiHide>
+                <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+                <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+                <ns2:extendedAttributes>
+                    <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                    <attribute type="string" name="nonStandard">N</attribute>
+                </ns2:extendedAttributes>
+                <ns2:actionTag>ADD</ns2:actionTag>
+                <ns2:usageQuantity>0</ns2:usageQuantity>
+                <ns2:default>Y</ns2:default>
+                <ns2:uom>GB</ns2:uom>
+                <ns2:billingType>1</ns2:billingType>
+                <ns2:chargeType>Usage</ns2:chargeType>
+                <ns2:groupDescription>WebEx Storage Add On</ns2:groupDescription>
+            </ns2:xaasMinorLine>
+            <ns2:xaasMinorLine>
+                <ns2:lineId>0</ns2:lineId>
+                <ns2:itemName>A-WX-VOIP</ns2:itemName>
+                <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+                <ns2:quantity>1</ns2:quantity>
+                <ns2:configPath>A-WX-VOIP</ns2:configPath>
+                <ns2:selectionFlag>USER</ns2:selectionFlag>
+                <ns2:description>WebEx VoIP (1)</ns2:description>
+                <ns2:leadTime>35</ns2:leadTime>
+                <ns2:pricingInfo>
+                    <ns2:unitListPrice>0.00</ns2:unitListPrice>
+                    <ns2:unitListPriceQty>0.00</ns2:unitListPriceQty>
+                    <ns2:extendedListPrice>0.00</ns2:extendedListPrice>
+                    <ns2:decimalExp>2</ns2:decimalExp>
+                    <ns2:listPriceVersion>1</ns2:listPriceVersion>
+                </ns2:pricingInfo>
+                <ns2:uiHide>false</ns2:uiHide>
+                <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+                <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+                <ns2:extendedAttributes>
+                    <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                    <attribute type="string" name="nonStandard">N</attribute>
+                </ns2:extendedAttributes>
+                <ns2:actionTag>ADD</ns2:actionTag>
+                <ns2:usageQuantity>0</ns2:usageQuantity>
+                <ns2:default>Y</ns2:default>
+                <ns2:uom>Each</ns2:uom>
+                <ns2:billingType>1</ns2:billingType>
+                <ns2:chargeType>Recurring</ns2:chargeType>
+                <ns2:groupDescription>WebEx Audio Add On</ns2:groupDescription>
+            </ns2:xaasMinorLine>
+            <ns2:xaasMinorLine>
+                <ns2:lineId>0</ns2:lineId>
+                <ns2:itemName>SVS-WX-SUPT-BAS</ns2:itemName>
+                <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+                <ns2:quantity>1</ns2:quantity>
+                <ns2:configPath>SVS-WX-SUPT-BAS</ns2:configPath>
+                <ns2:selectionFlag>USER</ns2:selectionFlag>
+                <ns2:description>Basic Support for WebEx</ns2:description>
+                <ns2:pricingInfo>
+                    <ns2:unitListPrice>0.00</ns2:unitListPrice>
+                    <ns2:unitListPriceQty>0.00</ns2:unitListPriceQty>
+                    <ns2:extendedListPrice>0.00</ns2:extendedListPrice>
+                    <ns2:decimalExp>2</ns2:decimalExp>
+                    <ns2:listPriceVersion>3</ns2:listPriceVersion>
+                </ns2:pricingInfo>
+                <ns2:uiHide>false</ns2:uiHide>
+                <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+                <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+                <ns2:extendedAttributes>
+                    <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Optional</attribute>
+                    <attribute type="string" name="nonStandard">N</attribute>
+                </ns2:extendedAttributes>
+                <ns2:actionTag>ADD</ns2:actionTag>
+                <ns2:usageQuantity>0</ns2:usageQuantity>
+                <ns2:default>Y</ns2:default>
+                <ns2:uom>Each</ns2:uom>
+                <ns2:billingType>1</ns2:billingType>
+                <ns2:chargeType>Recurring</ns2:chargeType>
+                <ns2:groupDescription>WebEx Support Options</ns2:groupDescription>
+            </ns2:xaasMinorLine>
+            <ns2:xaasMinorLine>
+                <ns2:lineId>0</ns2:lineId>
+                <ns2:itemName>A-WX-EARLY-TERM</ns2:itemName>
+                <ns2:lineType>NONCONFIGURABLE</ns2:lineType>
+                <ns2:quantity>1</ns2:quantity>
+                <ns2:configPath>A-WX-EARLY-TERM</ns2:configPath>
+                <ns2:selectionFlag>USER</ns2:selectionFlag>
+                <ns2:description>Early Termination Fee</ns2:description>
+                <ns2:leadTime>35</ns2:leadTime>
+                <ns2:pricingInfo>
+                    <ns2:unitListPrice>0.00</ns2:unitListPrice>
+                    <ns2:unitListPriceQty>0.00</ns2:unitListPriceQty>
+                    <ns2:extendedListPrice>0.00</ns2:extendedListPrice>
+                    <ns2:decimalExp>2</ns2:decimalExp>
+                    <ns2:listPriceVersion>1</ns2:listPriceVersion>
+                </ns2:pricingInfo>
+                <ns2:uiHide>true</ns2:uiHide>
+                <ns2:additionalItemInfo>XAAS</ns2:additionalItemInfo>
+                <ns2:deliveryOption>CLOUD</ns2:deliveryOption>
+                <ns2:extendedAttributes>
+                    <attribute type="string" name="SMART_ACCOUNT_REQUIRED">Blank / Not Enabled</attribute>
+                    <attribute type="string" name="nonStandard">N</attribute>
+                </ns2:extendedAttributes>
+                <ns2:actionTag>ADD</ns2:actionTag>
+                <ns2:usageQuantity>0</ns2:usageQuantity>
+                <ns2:default>N</ns2:default>
+                <ns2:uom>Each</ns2:uom>
+                <ns2:billingType>1</ns2:billingType>
+                <ns2:chargeType>ETF</ns2:chargeType>
+                <ns2:groupDescription>Other</ns2:groupDescription>
+            </ns2:xaasMinorLine>
+            <ns2:transactionId>agoi4k3tbsit3flxumpj2rfkz</ns2:transactionId>
+        </ns2:referenceInfo>
+    </ns2:xaasMajorLine>
+</ns2:ConfigRequest>
+
